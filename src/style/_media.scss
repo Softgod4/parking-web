@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+    #about-us {
+        .about-us {
+            flex-direction: column;
+            justify-content: start;
+
+            &__text {
+                width: 100% !important;
+                .bonus {
+                    flex-direction: column;
+                    article {
+                        padding: 0px !important;
+                    }
+                }
+            }
+            &__img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    #main {
+        .carousel-banner {
+            h1 {
+                font-size: 24pt;
+                font-weight: 500;
+            }
+            p {
+                font-size: 12pt;
+            }
+        }
+    }
+    #footer {
+        .footer-upper {
+            &__text {
+                display: none !important;
+            }
+        }
+    }
+}

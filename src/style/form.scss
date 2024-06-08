@@ -1,0 +1,70 @@
+@import 'mixins';
+
+#navbar {
+    z-index: 9;
+    width: 100%;
+
+    nav {
+        .container-fluid {
+            img {
+                width: 32px;
+                height: 32px;
+                margin-right: 7px;
+            }
+        }
+    }
+}
+
+#main {
+    margin-top: 0px !important;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    #carouselExampleRide {
+        .carousel-control-prev, .carousel-control-next {
+            display: none;
+        }
+        .carousel-item {
+            height: 100vh;
+            @include background();
+            &:nth-child(1) {
+                background-image: url('/img/main3.jpg');
+            }
+            &:nth-child(2) {
+                background-image: url('/img/main2.jpg');
+            }
+            &:nth-child(3) {
+                background-image: url('/img/main4.jpg');
+            }
+        }
+    }
+
+    form {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        width: 500px;
+        background: white;
+        top: 280px;
+        position: absolute;
+        z-index: 6;
+        padding: 32px;
+        border-radius: 8px;
+
+        top: 50%;
+        left: 30%; 
+        transform: translate(-30%, -50%);
+
+        p:last-child {
+            padding-top: 12px;
+            color: #575757;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    #main {
+        form {
+            width: 100% !important;
+        }
+    }
+}
