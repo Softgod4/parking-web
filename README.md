@@ -6,9 +6,9 @@
 
 ## Структура проекта
 
-- **Frontend:** HTML, CSS, Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** PostgreSQL
+-   **Frontend:** HTML, CSS, Bootstrap
+-   **Backend:** Node.js, Express.js
+-   **Database:** PostgreSQL
 
 ## Установка и запуск проекта
 
@@ -16,8 +16,8 @@
 
 Перед тем как запустить проект, убедитесь, что у вас установлены следующие компоненты:
 
-- Node.js и npm
-- PostgreSQL
+-   Node.js и npm
+-   PostgreSQL
 
 ### Настройка проекта
 
@@ -50,3 +50,4 @@
 
 ```bash
 npm run dev
+```

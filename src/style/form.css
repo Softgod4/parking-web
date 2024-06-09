@@ -1,57 +1,60 @@
 #navbar {
-  z-index: 9;
-  width: 100%;
+    z-index: 9;
+    width: 100%;
 }
 #navbar nav .container-fluid img {
-  width: 32px;
-  height: 32px;
-  margin-right: 7px;
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
 }
 
 #main {
-  margin-top: 0px !important;
-  width: 100%;
-  height: 100vh;
-  position: relative;
+    margin-top: 0px !important;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
-#main #carouselExampleRide .carousel-control-prev, #main #carouselExampleRide .carousel-control-next {
-  display: none;
+#main #carouselExampleRide .carousel-control-prev,
+#main #carouselExampleRide .carousel-control-next {
+    display: none;
 }
 #main #carouselExampleRide .carousel-item {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 #main #carouselExampleRide .carousel-item:nth-child(1) {
-  background-image: url("/img/main3.jpg");
+    background-image: url('/img/main3.jpg');
 }
 #main #carouselExampleRide .carousel-item:nth-child(2) {
-  background-image: url("/img/main2.jpg");
+    background-image: url('/img/main2.jpg');
 }
 #main #carouselExampleRide .carousel-item:nth-child(3) {
-  background-image: url("/img/main4.jpg");
+    background-image: url('/img/main4.jpg');
 }
 #main form {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  width: 500px;
-  background: white;
-  top: 280px;
-  position: absolute;
-  z-index: 6;
-  padding: 32px;
-  border-radius: 8px;
-  top: 50%;
-  left: 30%;
-  transform: translate(-30%, -50%);
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 500px;
+    background: white;
+    top: 280px;
+    position: absolute;
+    z-index: 6;
+    padding: 32px;
+    border-radius: 8px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
 }
 #main form p:last-child {
-  padding-top: 12px;
-  color: #575757;
+    padding-top: 12px;
+    color: #575757;
 }
 
 @media (max-width: 530px) {
-  #main form {
-    width: 100% !important;
-  }
-}/*# sourceMappingURL=form.css.map */
+    #main form {
+        width: 100% !important;
+    }
+} /*# sourceMappingURL=form.css.map */
