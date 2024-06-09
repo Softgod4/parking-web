@@ -8,7 +8,7 @@
 
 - **Frontend:** HTML, CSS, Bootstrap
 - **Backend:** Node.js, Express.js
-- **Database:** MySQL
+- **Database:** PostgreSQL
 
 ## Установка и запуск проекта
 
@@ -17,17 +17,7 @@
 Перед тем как запустить проект, убедитесь, что у вас установлены следующие компоненты:
 
 - Node.js и npm
-- MySQL
-
-### Настройка MySQL
-
-1. Создайте базу данных в MySQL:
-
-    ```sql
-    CREATE DATABASE parking_management;
-    ```
-
-2. Создайте таблицы и необходимые схемы. Для этого вы можете использовать SQL-скрипты, предоставленные в папке `sql` вашего проекта.
+- PostgreSQL
 
 ### Настройка проекта
 
@@ -48,8 +38,8 @@
 
     ```
     DB_HOST=localhost
-    DB_USER=your_mysql_username
-    DB_PASSWORD=your_mysql_password
+    DB_USER=your_postgresql_username
+    DB_PASSWORD=your_postgresql_password
     DB_NAME=parking_management
     PORT=3000
     ```
